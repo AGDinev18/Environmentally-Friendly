@@ -21,14 +21,14 @@
     position: relative;
     right:8px;
     width:1920px;
-    height: 10px;
+    height: 60px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 183, 255, 0.137);
+    background-color: rgba(0, 238, 255, 0.712);
   }
   
 li {
@@ -46,3 +46,13 @@ li a  {
 li a:hover {
     background-color: rgba(0, 183, 255, 0.425);
   }
+  /*block*/
+.block
+{
+  position: fixed;
+  height:860px;
+  width:1880px;
+  bottom:20px;
+  left:20px;
+  background-color: rgba(63, 60, 255, 0.281);
+}
