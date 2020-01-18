@@ -1,0 +1,48 @@
+/*Background*/
+.header
+{
+    background: rgba(0, 153, 255, 0.274);
+    height:100%;
+}
+.video-background
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index:-1;
+}
+/*NAV BAR*/
+.nav
+{
+    position: relative;
+    right:8px;
+    width:1920px;
+    height: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 183, 255, 0.137);
+  }
+  
+li {
+    float: left;
+  }
+  
+li a  {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: rgba(0, 183, 255, 0.425);
+  }
