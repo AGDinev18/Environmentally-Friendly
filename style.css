@@ -19,6 +19,7 @@ body
 .nav
 {
     position: absolute;
+	position: fixed;
     top:0;
     right:0;
     width:100%;
@@ -31,11 +32,14 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgba(39, 39, 39, 0.986);
+	height:82%;
+	
   }
   
 li {
-    float: left;
-    border-right:1px solid rgb(255, 255, 255);
+    float: right;
+	margin-top:14px;
+    
   }
   
 li a  {
@@ -47,7 +51,7 @@ li a  {
   }
   
 li a:hover {
-    background-color: rgba(0, 183, 255, 0.808);
+    
   }
   /*block*/
 .block
