@@ -1,7 +1,8 @@
 
-body 
-{
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+body,html {
+  margin: 0;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  background: #000;
 }
 /*Background*/
 .video-background
@@ -15,51 +16,88 @@ body
     height: auto;
     z-index:-100;
 }
-/*NAV BAR*/
-.nav
+/*Header*/
+.header
 {
     position: absolute;
-	position: fixed;
+    background-color:#fff;
     top:0;
     right:0;
     width:100%;
-    height: 10%;
+    height: 7%;
     z-index:3000;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(39, 39, 39, 0.986);
-	height:82%;
-	
-  }
-  
-li {
-    float: right;
-	margin-top:14px;
-    
-  }
-  
-li a  {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 10px 30px;
-    text-decoration: none;
-  }
-  
-li a:hover {
-    
-  }
+.nav{
+    position: absolute;
+    top:0;
+    right:5%;
+    width:90%;
+    height:100%;
+    z-index:3001;
+}
+.logo-name{
+  position:absolute;
+  top:0;
+  right:55%;
+  width:45%;
+  height:100%;
+  z-index:3003;
+}
+.logo{
+  position:absolute;
+  top:0;
+  right:50%;
+  width:5%;
+  height:100%;
+  z-index:3003;
+}
+ul { 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 100%;
+  text-align: center;
+  margin-top:1.1%;
+}
+li { 
+  position:relative;
+  float:right;
+  display: table-cell; 
+  width:7%;
+  height:100%;
+}
+a {
+  color: rgb(46, 46, 46);
+  text-transform: uppercase;
+  font-size:1.2vw;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.2vw;
+  left: 0;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  transition: width 0.2s ease 0s, left 0.2s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
   /*block*/
 .block
 {
   position: absolute;
   height:924px;
   width:100%;
-  top:45px;
+  top:60px;
   left:0;
   z-index:1000;
 }
