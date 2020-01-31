@@ -140,6 +140,8 @@ div.header li {
     margin-left: 0;
     margin-top: 0;
     float: left;
+    float: left;
+    margin-top: 0;
 }
 
 .aboutright {
@@ -215,6 +217,7 @@ p {
     padding-top: 8%;
     padding-bottom: 8%;
     font-size: 0.85vw;
+    font-size: 0.85vw;
 }
 
 .p3 {
@@ -245,6 +248,7 @@ p {
 
 .p7 {
     font-size: 1.9vw;
+    font-size: 1.9vw;
     font-weight: 600;
 }
 
@@ -255,6 +259,7 @@ p {
 }
 
 .p9 {
+    margin-top: 2%;
     margin-top: 2%;
     color: white;
     font-size: 1.2vw;
@@ -282,6 +287,9 @@ p {
     padding-top: 70px;
     margin-left: 150px;
     text-align: justify;
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7vw;
 }
 
 .tiles {
@@ -304,6 +312,7 @@ p {
     position: relative;
     border-radius: 3px;
     width: 40%;
+    height: 450px;
     height: 450px;
     box-shadow: 0 0 520px 0 rgba(0, 0, 0, 0.05);
 }
