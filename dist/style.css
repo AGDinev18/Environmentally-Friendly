@@ -33,8 +33,8 @@ html {
 .logo {
     position: absolute;
     top: 0;
-    left: 20%;
-    width: 8%;
+    left: 1%;
+    width: 20%;
     height: 100%;
     z-index: 3003;
 }
@@ -50,8 +50,8 @@ div.header ul {
 
 div.header li {
     position: relative;
-    float: right;
     display: table-cell;
+    float: right;
     width: 9%;
     height: 100%;
 }
@@ -113,6 +113,16 @@ div.header li {
 .divbutton {
     position: relative;
     width: 30%;
+    height: 35px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    z-index: 3;
+    margin-top: 6%;
+}
+
+.divbuttonBG {
+    position: relative;
+    width: 30%;
+    height: 38px;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     z-index: 3;
     margin-top: 6%;
@@ -176,6 +186,13 @@ div.header li {
     margin-top: 50px;
 }
 
+.image2 {
+    width: 550px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
 .photo1 {
     width: 80%;
     height: 30%;
@@ -204,6 +221,20 @@ div.header li {
 
 .h2 {
     padding-top: 90px;
+}
+
+.subhead {
+    padding-top: 90px;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 150px;
+}
+
+.subhead2 {
+    padding-top: 90px;
+    font-size: 35px;
+    text-align: justify;
+    margin-left: 150px;
 }
 
 .particle {
@@ -278,6 +309,18 @@ div.header li {
     color: gray;
 }
 
+.particle7 {
+    margin-top: 150px;
+    margin-right: 710px;
+    color: gray;
+}
+
+.particle7BG {
+    margin-top: 150px;
+    margin-right: 870px;
+    color: gray;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -291,7 +334,7 @@ p {
 
 .p1 {
     position: absolute;
-    bottom: 12.5%;
+    bottom: 22.5%;
     right: 15%;
     color: white;
     font-size: 2.5vw;
@@ -321,7 +364,7 @@ p {
     padding-bottom: 10%;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 0.8vw;
+    font-size: 1.0vw;
 }
 
 .p5 {
@@ -383,6 +426,12 @@ p {
     text-align: justify;
     margin-left: 250px;
     font-size: 25px;
+}
+
+.justify5 {
+    text-align: justify;
+    margin-left: 150px;
+    font-size: 20px;
 }
 
 .padding {
@@ -618,4 +667,16 @@ p {
 .tilesart .tile:hover .info {
     -webkit-transition-delay: 0.25s;
     transition-delay: 0.25s;
+}
+
+.icon1 {
+    height: 30px;
+}
+
+.icon2 {
+    height: 30px;
+}
+
+.padding2 {
+    padding-bottom: 20px;
 }
