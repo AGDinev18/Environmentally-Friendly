@@ -32,10 +32,26 @@ html {
 
 .logo {
     position: absolute;
+    top: 15%;
+    left: 2%;
+    width: 35%;
+    height: 70%;
+    z-index: 3003;
+}
+.logobg {
+    position: absolute;
+    top: 15%;
+    left: -2%;
+    width: 35%;
+    height: 70%;
+    z-index: 3003;
+}
+.logocontact {
+    position: absolute;
     top: 0;
-    left: 1%;
-    width: 20%;
-    height: 100%;
+    left: 1.5%;
+    width: 35%;
+    height: 65%;
     z-index: 3003;
 }
 
@@ -52,8 +68,9 @@ div.header li {
     position: relative;
     display: table-cell;
     float: right;
-    width: 9%;
+    width: cover;
     height: 100%;
+    margin-right:4%;
 }
 
 .a {
@@ -64,6 +81,7 @@ div.header li {
     letter-spacing: 0.15vw;
     display: inline-block;
     position: relative;
+    padding-bottom: 0.16vw;
 }
 
 .a:after {
@@ -82,6 +100,17 @@ div.header li {
 .a:hover:after {
     width: 100%;
     left: 0;
+}
+
+.active{
+    color: rgb(46, 46, 46);
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    text-decoration: none;
+    border-bottom: 0.2vw solid rgb(0, 0, 0);
+    letter-spacing: 0.15vw;
+    display: inline-block;
+    position: relative;
 }
 
 .none {
