@@ -1,5 +1,6 @@
 body,
 html {
+    background-color: rgb(161, 210, 255);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -13,15 +14,19 @@ html {
 
 .header {
     position: fixed;
-    background-color: #fff;
+    background-image: linear-gradient(141deg, #80bdbb 0%, #1fc8db 40%, #2cb5e8 90%);
     top: 0;
     right: 0;
     width: 100%;
     height: 11.7%;
     z-index: 3000;
+    border-bottom: 0.2vw solid rgb(7, 0, 107);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .nav {
+
     position: absolute;
     top: 0;
     right: 5%;
@@ -46,14 +51,6 @@ html {
     height: 70%;
     z-index: 3003;
 }
-.logocontact {
-    position: absolute;
-    top: 0;
-    left: 1.5%;
-    width: 35%;
-    height: 65%;
-    z-index: 3003;
-}
 
 div.header ul {
     position: relative;
@@ -75,6 +72,7 @@ div.header li {
 
 .a {
     color: rgb(46, 46, 46);
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 1.4vw;
     text-decoration: none;
@@ -108,6 +106,7 @@ div.header li {
     font-size: 1.4vw;
     text-decoration: none;
     border-bottom: 0.2vw solid rgb(0, 0, 0);
+    font-weight: 600;
     letter-spacing: 0.15vw;
     display: inline-block;
     position: relative;
@@ -141,8 +140,9 @@ div.header li {
 
 .divbutton {
     position: relative;
-    width: 30%;
-    height: 35px;
+    width:30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     z-index: 3;
     margin-top: 6%;
@@ -150,8 +150,9 @@ div.header li {
 
 .divbuttonBG {
     position: relative;
-    width: 30%;
-    height: 38px;
+    width:30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     z-index: 3;
     margin-top: 6%;
@@ -160,6 +161,11 @@ div.header li {
 .contact {
     background-color: rgba(209, 209, 209, 1);
     width: 6%;
+}
+
+.contactbg {
+    background-color: rgba(209, 209, 209, 1);
+    width: 9%;
 }
 
 .big {
@@ -366,15 +372,16 @@ p {
     bottom: 22.5%;
     right: 15%;
     color: white;
+    font-weight: 600;
     font-size: 2.5vw;
     z-index: 2;
 }
 
 .p2 {
     color: black;
+    font-weight: 600;
     padding-top: 8%;
     padding-bottom: 8%;
-    font-size: 0.85vw;
     font-size: 0.85vw;
 }
 
@@ -383,16 +390,13 @@ p {
     top: 40%;
     left: 15%;
     color: white;
+    font-weight: 600;
     font-size: 2.5vw;
     z-index: 3;
 }
 
 .p4 {
     color: white;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
     font-size: 1.0vw;
 }
 

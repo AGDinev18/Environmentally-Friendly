@@ -15,8 +15,8 @@
 
 body {
     background: #ffffff;
-    color: #333;
-    font-weight: normal;
+    color: rgb(0, 3, 177);
+    font-weight: 600;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -72,15 +72,15 @@ select:focus {
 }
 
 .section1 .seperator {
-    border-bottom: 1px solid #a2a2a2;
-    width: 35px;
+    border-bottom: 2px solid rgb(0, 3, 177);;
+    width: 40px;
     display: inline-block;
     margin: 20px;
 }
 
 .section1 h1 {
     font-size: 40px;
-    color: #A44DD8;
+    color: rgb(0, 3, 177);
     font-weight: normal;
 }
 
@@ -140,7 +140,7 @@ select:focus {
     padding: 15px 40px;
     color: #fff;
     border: 0;
-    background: #A44DD8;
+    background:rgb(0, 3, 177);
     font-size: 16px;
     text-transform: uppercase;
     margin: 7px 0;
@@ -153,7 +153,8 @@ select:focus {
     margin-top: 30px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 19px;
-    color: #A44DD8;
+    color: rgb(0, 3, 177);
+    font-weight: 600;
 }
 
 
