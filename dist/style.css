@@ -1,5 +1,6 @@
 body,
 html {
+    background-color: rgb(161, 210, 255);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -13,12 +14,15 @@ html {
 
 .header {
     position: fixed;
-    background-color: #fff;
+    background-image: linear-gradient(141deg, #80bdbb 0%, #1fc8db 40%, #2cb5e8 90%);
     top: 0;
     right: 0;
     width: 100%;
     height: 11.7%;
     z-index: 3000;
+    border-bottom: 0.2vw solid rgb(7, 0, 107);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .nav {
@@ -30,6 +34,9 @@ html {
     z-index: 3001;
 }
 
+
+/* For the logos in our site*/
+
 .logo {
     position: absolute;
     top: 15%;
@@ -38,20 +45,13 @@ html {
     height: 70%;
     z-index: 3003;
 }
+
 .logobg {
     position: absolute;
     top: 15%;
     left: -2%;
     width: 35%;
     height: 70%;
-    z-index: 3003;
-}
-.logocontact {
-    position: absolute;
-    top: 0;
-    left: 1.5%;
-    width: 35%;
-    height: 65%;
     z-index: 3003;
 }
 
@@ -70,11 +70,15 @@ div.header li {
     float: right;
     width: cover;
     height: 100%;
-    margin-right:4%;
+    margin-right: 4%;
 }
+
+
+/* Some cool css hover effect for the nav bar */
 
 .a {
     color: rgb(46, 46, 46);
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 1.4vw;
     text-decoration: none;
@@ -102,16 +106,20 @@ div.header li {
     left: 0;
 }
 
-.active{
+.active {
     color: rgb(46, 46, 46);
     text-transform: uppercase;
     font-size: 1.4vw;
     text-decoration: none;
     border-bottom: 0.2vw solid rgb(0, 0, 0);
+    font-weight: 600;
     letter-spacing: 0.15vw;
     display: inline-block;
     position: relative;
 }
+
+
+/* hides the decoration of the links*/
 
 .none {
     text-decoration: none;
@@ -139,10 +147,14 @@ div.header li {
     z-index: 1;
 }
 
+
+/* For the buttons which when upi click you will go to the contact page */
+
 .divbutton {
     position: relative;
     width: 30%;
-    height: 35px;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     z-index: 3;
     margin-top: 6%;
@@ -151,7 +163,8 @@ div.header li {
 .divbuttonBG {
     position: relative;
     width: 30%;
-    height: 38px;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     z-index: 3;
     margin-top: 6%;
@@ -162,6 +175,14 @@ div.header li {
     width: 6%;
 }
 
+.contactbg {
+    background-color: rgba(209, 209, 209, 1);
+    width: 9%;
+}
+
+
+/* For the articles */
+
 .big {
     width: 80%;
     height: 1500px;
@@ -169,11 +190,17 @@ div.header li {
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
+
+/* For the quote in the main page */
+
 .quotes {
     margin-top: 6%;
     width: 60%;
     height: auto;
 }
+
+
+/* The about tags are for the divs which contain information about our team*/
 
 .aboutleft {
     width: 50%;
@@ -222,6 +249,9 @@ div.header li {
     margin-left: 150px;
 }
 
+
+/* For the divs containing photos */
+
 .photo1 {
     width: 80%;
     height: 30%;
@@ -252,6 +282,9 @@ div.header li {
     padding-top: 90px;
 }
 
+
+/* In the article for the water pollution there are subheading */
+
 .subhead {
     padding-top: 90px;
     font-size: 30px;
@@ -265,6 +298,9 @@ div.header li {
     text-align: justify;
     margin-left: 150px;
 }
+
+
+/* These particle tags are for every small text that is over the headings of ther articles. Because of the different length of the headings*/
 
 .particle {
     margin-top: 150px;
@@ -356,25 +392,32 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* For the footer tag*/
+
 .white {
     color: white;
     padding-top: 40px;
 }
+
+
+/* These p tags are for different divs, photos, quotes, etc.*/
 
 .p1 {
     position: absolute;
     bottom: 22.5%;
     right: 15%;
     color: white;
+    font-weight: 600;
     font-size: 2.5vw;
     z-index: 2;
 }
 
 .p2 {
     color: black;
+    font-weight: 600;
     padding-top: 8%;
     padding-bottom: 8%;
-    font-size: 0.85vw;
     font-size: 0.85vw;
 }
 
@@ -383,16 +426,13 @@ p {
     top: 40%;
     left: 15%;
     color: white;
+    font-weight: 600;
     font-size: 2.5vw;
     z-index: 3;
 }
 
 .p4 {
     color: white;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
     font-size: 1.0vw;
 }
 
@@ -428,6 +468,9 @@ p {
     color: white;
     font-size: 1.7vw;
 }
+
+
+/* All justify tags are for the articles because the different font size made it hard to align the text*/
 
 .justify1 {
     text-align: justify;
@@ -469,6 +512,9 @@ p {
     text-align: justify;
     font-size: 25px;
 }
+
+
+/* css for the articles*/
 
 .tiles {
     width: 90%;
@@ -512,6 +558,9 @@ p {
     transition-duration: 0.3s;
 }
 
+
+/* Css for the images for the articles*/
+
 .tiles .tile img {
     display: block;
     width: 100%;
@@ -543,11 +592,17 @@ p {
     transition-delay: 0s;
 }
 
+
+/* The title for the articles*/
+
 .tiles .tile .details .title {
     line-height: 1;
     font-weight: 600;
     font-size: 18px;
 }
+
+
+/* The css for the short summary*/
 
 .tiles .tile .details .info {
     line-height: 1.2;
@@ -583,6 +638,9 @@ p {
     -webkit-transition-delay: 0.25s;
     transition-delay: 0.25s;
 }
+
+
+/* We copied the code and changed it a bit because we wanted to link to other articles in the article the user reads*/
 
 .tilesart {
     width: 90%;
@@ -697,6 +755,9 @@ p {
     -webkit-transition-delay: 0.25s;
     transition-delay: 0.25s;
 }
+
+
+/* Icons Icons through which the user can change the language*/
 
 .icon1 {
     height: 30px;
